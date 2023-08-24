@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS variables</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div class="container">
+            <h2>Update CSS variables with <span>JS</span></h2>
+            <div class="controls">
+                <label class="control">Spacing : </label>
+                <input type="range" name="spacing" min="10px" max="200px" value="10" data-sizing="px" >
+                <label class="control">Blur : </label>
+                <input type="range" name="blur" min="0px" max="25px" data-sizing="px" value="10">
+                <label class="control">Color Picker : </label>
+                <input type="color" name="base" value="#ffc600">
+            </div>
+
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1645808899485-0f802769c902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8Njg2MTE4NXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"> </img>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
